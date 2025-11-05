@@ -165,6 +165,11 @@ Follow these steps in order. If you get stuck, read each step carefully before m
 
 You should now see all the project files in the left sidebar of Cursor.
 
+**✅ Success Criteria - You're ready to continue when:**
+- You can see the project folder name in the top-left of Cursor
+- You can see files and folders (like `app`, `components`, `package.json`) in the left sidebar
+- You can click on files and they open in the editor
+
 ### Step 2: Open the Terminal in Cursor
 
 **What is a terminal?** The terminal is a text-based way to run commands on your computer. It's like having a conversation with your computer using typed commands.
@@ -173,6 +178,12 @@ You should now see all the project files in the left sidebar of Cursor.
 - In Cursor: Press `` Ctrl + ` `` (that's the backtick key, usually above Tab)
 - Or go to **Terminal** → **New Terminal** in the menu
 - You should see a window at the bottom of your screen with a prompt (usually showing your current folder path)
+
+**✅ Success Criteria - You're ready to continue when:**
+- You see a terminal window at the bottom of Cursor
+- The terminal shows a prompt (like `$` or `>` or a path like `/home/username/project-name`)
+- You can type in the terminal and see your text appear
+- The terminal path shows your project folder name
 
 ### Step 3: Install Project Dependencies
 
@@ -193,6 +204,12 @@ You should now see all the project files in the left sidebar of Cursor.
 - Make sure Node.js is installed (check Step 1 above)
 - Try closing and reopening your terminal, then run the command again
 
+**✅ Success Criteria - You're ready to continue when:**
+- The `npm install` command finished without errors
+- You see a message like "added XXX packages" or "audited XXX packages"
+- Your command prompt is back (you can type a new command)
+- A `node_modules` folder appears in your project sidebar (this might be hidden by default)
+
 ### Step 4: Get Your Supabase Keys
 
 **What are these keys?** These are like passwords that let your website communicate securely with Supabase. You need two values:
@@ -209,6 +226,11 @@ You should now see all the project files in the left sidebar of Cursor.
    - **Project URL**: Copy this value (it looks like `https://xxxxxxxxxxxxx.supabase.co`)
    - **anon public key**: Copy this value (it's a long string of letters and numbers)
 6. Keep these values handy - you'll need them in the next step!
+
+**✅ Success Criteria - You're ready to continue when:**
+- You have copied your Project URL (starts with `https://` and ends with `.supabase.co`)
+- You have copied your anon public key (a long string of characters, usually starts with `eyJ`)
+- Both values are saved somewhere safe (like a text file or notes app) so you can paste them in the next step
 
 ### Step 5: Create Your Environment File
 
@@ -241,6 +263,12 @@ You should now see all the project files in the left sidebar of Cursor.
 - Make sure there are no spaces around the `=` sign
 - Make sure there are no quotes around your values (unless Supabase shows them with quotes)
 
+**✅ Success Criteria - You're ready to continue when:**
+- You have created a file named `.env.local` in your project root folder (same folder as `package.json`)
+- The file contains two lines: `NEXT_PUBLIC_SUPABASE_URL=` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=`
+- Both lines have your actual Supabase values (not `your-project-url-here` or `your-anon-key-here`)
+- The file is saved (you should see it in your file explorer, though it might be hidden by default)
+
 ### Step 6: Start Your Development Server
 
 **What is a development server?** This is a program that runs your website on your computer so you can see it in your browser and test it. It automatically updates when you make changes to your code.
@@ -264,6 +292,12 @@ You should now see all the project files in the left sidebar of Cursor.
 - You might see some warnings or messages - that's usually okay
 - If you see an error in red, read what it says - it might tell you what's wrong
 
+**✅ Success Criteria - You're ready to continue when:**
+- The terminal shows a message like "▲ Next.js 15.x.x" or similar
+- You see a line that says "Local: http://localhost:3000" (or similar)
+- The terminal is still running (not showing an error that stopped it)
+- The terminal might show "Ready" or "compiled successfully" messages
+
 ### Step 7: View Your Website
 
 **What to do:**
@@ -279,6 +313,12 @@ You should now see all the project files in the left sidebar of Cursor.
 - A page with "Next.js Supabase Starter" at the top
 - Some buttons and text explaining the next steps
 - If you see a warning about environment variables, double-check Step 5 - you might have made a typo in your `.env.local` file
+
+**✅ Success Criteria - You're ready to continue when:**
+- Your browser shows your website (not an error page)
+- You can see the homepage content (like "Next.js Supabase Starter" or similar)
+- The page loads without showing "Environment variables are missing" or similar errors
+- You can click around and interact with the page
 
 ## How to Use Your Website
 
