@@ -16,18 +16,7 @@ Think of it as a foundation you can build upon to create your own web applicatio
 
 Before you begin, you'll need to set up accounts and install software. Follow these steps in order:
 
-### 1. Create Framer Account (Free)
-
-**What is Framer?** Framer is a design tool that helps you create beautiful interfaces and prototypes. It's free to use and works great with web projects.
-
-**How to get an account:**
-1. Go to [framer.com](https://www.framer.com/)
-2. Click "Sign up" or "Get started for free"
-3. Create a free account (you can use your email or sign up with Google/GitHub)
-4. Verify your email if prompted
-5. You're all set! You don't need to do anything else with Framer right now, but having the account ready is helpful.
-
-### 2. Create Supabase Account (Free)
+### 1. Create Supabase Account (Free)
 
 **What is Supabase?** Supabase handles user authentication (login/sign up) and can store your data. It's like having a backend server without needing to build one yourself.
 
@@ -43,7 +32,7 @@ Before you begin, you'll need to set up accounts and install software. Follow th
 6. Click "Create new project"
 7. Wait 2-3 minutes for your project to be set up
 
-### 3. Create Free Vercel Account (Free)
+### 2. Create Free Vercel Account (Free)
 
 **What is Vercel?** Vercel is a platform that hosts (puts your website on the internet) so other people can visit it. It's free for personal projects and works perfectly with Next.js.
 
@@ -53,22 +42,8 @@ Before you begin, you'll need to set up accounts and install software. Follow th
 3. Create a free account (you can sign up with GitHub, GitLab, or Bitbucket - this makes deployment easier later!)
 4. Verify your email if prompted
 5. You're done! You'll use this account later to put your website online.
-
-### 4. Buy a Domain (You Can Do This on Vercel)
-
-**What is a domain?** A domain is your website's address on the internet (like `yourname.com`). Instead of sharing a long URL like `yourname.vercel.app`, you can have your own custom name.
-
-**How to buy a domain:**
-1. Log into your Vercel account (from Step 3)
-2. Go to your dashboard and click on "Domains" in the sidebar
-3. Click "Add Domain" or "Buy Domain"
-4. Search for the domain name you want (like `yourname.com`)
-5. Follow the checkout process (domains usually cost around $10-15 per year)
-6. **Note:** You don't need a domain right away! You can add one later. For now, your site will work fine with a free `.vercel.app` address.
-
-**Alternative:** You can also buy domains from other places like [Namecheap](https://www.namecheap.com/) or [Google Domains](https://domains.google/), but buying on Vercel makes connecting it easier.
-
-### 5. Install Node.js and NPM on Your Machine
+   
+### 3. Install Node.js and NPM on Your Machine
 
 **What is Node.js?** Node.js is a program that lets you run JavaScript on your computer. It also comes with npm (Node Package Manager), which helps you install the tools this project needs.
 
