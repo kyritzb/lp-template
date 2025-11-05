@@ -12,7 +12,9 @@ This template gives you a complete starting point for building a full web applic
 
 Think of it as a foundation you can build upon to create your own web application.
 
-## What You'll Need Before Starting
+---
+
+## Step 1) Initial setup
 
 Before you begin, you'll need to set up accounts and install software. Follow these steps in order:
 
@@ -129,7 +131,7 @@ git config --global user.email "your.email@example.com"
 
 ---
 
-## How to check if you did that set up correctly:
+## Step 2) Check if your laptop is set up and ready to code:
 
 <div align="center">
   
@@ -141,7 +143,7 @@ git config --global user.email "your.email@example.com"
 
 ---
 
-## How to make a copy of the template and get it running on your laptop:
+## Step 3) Get the Code on your laptop, and set up the template:
 
 <div align="center">
   
